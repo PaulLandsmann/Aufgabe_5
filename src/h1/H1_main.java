@@ -11,9 +11,9 @@ public class H1_main {
 			myArray[myArray.length - 1 - i] = copy;
 		}
 		
-		for(int i = 0; i < myArray.length; i++) {
-			System.out.print(myArray[i] + " ");
-		}
+		//for(int i = 0; i < myArray.length; i++) {
+		//	System.out.print(myArray[i] + " ");
+		//}
 		
 	}
 

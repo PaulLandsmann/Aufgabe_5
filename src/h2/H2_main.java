@@ -26,9 +26,9 @@ public class H2_main {
 		}
 		
 		
-		System.out.println(n);
-		System.out.println(digits);
-		for(int i = 0; i < a.length; i++) System.out.print(a[i]);
+	//	System.out.println(n);
+	//	System.out.println(digits);
+	//	for(int i = 0; i < a.length; i++) System.out.print(a[i]);
 		
 	
 	

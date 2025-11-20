@@ -8,31 +8,28 @@ public class H3_main {
 				{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,}
 		};
 		
-		int input = 100;
-		int tem = input + 1;
+		
+		int input = 1227;
+		int tem = input;
 		
 		while (tem > 0) {
-			for(int i = 0; i < einheiten[0].length - 1; i++) {
-				if(tem > einheiten[0][i]) {
-					tem = tem - einheiten[1][i];
+			for(int i = 0; i < einheiten[0].length; i++) {
+				if(tem >= einheiten[0][i]) {
+					tem = tem - einheiten[0][i];
 					einheiten[1][i]++;
-					System.out.println("treffer");
-					continue;
+					i--;
 					
 				}
-				if(tem == 1) {
-					tem--;
-					einheiten[1][14]++;
-				}
 			}
+			
 		}
 		
-		for(int i = 0; i < einheiten.length; i++) {
-			for(int j = 0; j < einheiten[0].length; j++) {
-				System.out.print(einheiten[i][j] + " ");
-			}
-			System.out.println();
-		}
+		//for(int i = 0; i < einheiten.length; i++) {
+		//	for(int j = 0; j < einheiten[0].length; j++) {
+		//		System.out.print(einheiten[i][j] + " ");
+		//	}
+		//	System.out.println();
+		//}
 
 	}
 
